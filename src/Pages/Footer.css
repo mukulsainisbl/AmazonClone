@@ -1,0 +1,24 @@
+#footer-box{
+    display: flex;
+  margin: 0px 30px;
+    margin: "auto";
+    justify-content: space-between;
+    border: 1px solid black;
+    margin: auto;
+    padding: 10px;
+    background-color:rgb(35,47,62) ;
+    color: grey;
+    cursor: pointer;
+    padding: 0px 70px;
+    
+}
+
+#footer-policy{
+    display: flex;
+    font-size:0.9rem;
+   background-color:rgb(19,26,34);
+    justify-content: space-around;
+    color: white;
+    height: 80px;
+    align-items: center;
+}

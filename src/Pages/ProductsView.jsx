@@ -59,11 +59,11 @@ const ProductsView = () => {
   return (
     <>
       <Header />
-      <Container maxW={"2xl"}>
+      <Container  maxW={"2xl"}>
         <Heading textAlign={"center"}>Product Details</Heading>
         <Center>
-          <Card padding={2} alignItems={"center"} maxW={"2xl"} maxH={"200px"}>
-            <CardBody>
+          <Card border={"1px solid black"} padding={2} alignItems={"center"} maxW={"2xl"} maxH={"200px"}>
+            <CardBody >
               <Box width="250px" height="150px" margin={"auto"}>
                 {image ? (
                   <Image src={image} alt={title} maxW="100%" maxH="100%" />

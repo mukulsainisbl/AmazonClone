@@ -6,6 +6,7 @@ import { Container, SimpleGrid } from "@chakra-ui/react";
 import Header from "./Header";
 import LoadingIndicator from "../components/LoadingIndicator";
 import ErrorIndicator from "../components/ErrorIndicator";
+import Footer from "./Footer";
 const Home = () => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -62,7 +63,7 @@ const Home = () => {
         </SimpleGrid>
         </Container>
         
-      
+      <Footer/>
     </div>
   );
 };

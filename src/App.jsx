@@ -1,7 +1,6 @@
 
 import './App.css'
 import { AllRoutes } from './components/AllRoutes'
-import Header from "./Pages/Header"
 function App() {
 
 
@@ -10,6 +9,7 @@ function App() {
 
 
    <AllRoutes/>
+
     
 
 

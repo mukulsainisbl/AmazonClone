@@ -1,6 +1,9 @@
 import "../Pages/Header.css";
 
+import { useNavigate } from "react-router-dom";
+
 const Header = ({ searchQuery, setSearchQuery }) => {
+  const navigate = useNavigate()
   return (
     <div className="header">
       <img
@@ -20,7 +23,7 @@ const Header = ({ searchQuery, setSearchQuery }) => {
       <div className="header__nav">
         <div className="header__option">
           <span className="header__optionLineOne">Hello Guest</span>
-          <span className="header__optionLineTwo">Sign In</span>
+          <span className="header__optionLineTwo"><button onClick={() => navigate(`/login`)}><b>Login</b></button></span>
         </div>
         <div className="header__option">
           <span className="header__optionLineOne">Returns</span>

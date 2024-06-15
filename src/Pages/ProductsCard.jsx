@@ -17,7 +17,7 @@ const navigate = useNavigate()
 
 
   return (
-    <Container>
+    <Container >
       <Card padding={2} alignItems={"center"} maxW={"280px"} margin={6}>
         <CardBody>
           <Box
